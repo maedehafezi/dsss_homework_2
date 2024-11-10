@@ -5,7 +5,7 @@ with open("requirements.txt") as f:
     required_packages = f.read().splitlines()
 
 setup(
-    name="dsss_homework_2",
+    name="math_quiz",
     version="0.1",
     packages=find_packages(),
     author="Maedeh Hafezi Moghadas",
