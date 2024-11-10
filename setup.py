@@ -1,9 +1,5 @@
 from setuptools import setup, find_packages
 
-# Read the requirements from requirements.txt
-with open("requirements.txt") as f:
-    required_packages = f.read().splitlines()
-
 setup(
     name="math_quiz",
     version="0.1",
@@ -14,6 +10,5 @@ setup(
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/maedehafezi/dsss_homework_2",
-    install_requires=required_packages,
     python_requires='>=3.6',
 )
